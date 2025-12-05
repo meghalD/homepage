@@ -184,3 +184,77 @@ h2 {
 span.highlight {
   background-color: #fff9e6; /* softer highlight, like his cards */
 }
+
+/* Publication layout – cleaner, less squished */
+
+.pub-row td {
+  padding: 16px 20px;
+  vertical-align: top;
+}
+
+.pub-thumb {
+  width: 25%;
+  max-width: 180px;
+}
+
+.pub-thumb img {
+  display: block;
+  width: 100%;
+  max-width: 170px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.pub-info {
+  width: 75%;
+}
+
+.pub-title {
+  margin-bottom: 4px;
+}
+
+.pub-title .papertitle {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.pub-authors {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 2px;
+}
+
+.pub-venue {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 6px;
+}
+
+.pub-note {
+  font-size: 12px;
+  color: #888;
+  margin-left: 4px;
+}
+
+.pub-links {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.pub-links a {
+  margin-right: 0.7em;
+}
+
+.pub-desc {
+  font-size: 13px;
+  color: #444;
+  margin-top: 6px;
+  line-height: 1.45;
+}
+
+/* Softer highlight for selected papers */
+.pub-row.highlight {
+  background-color: #fff9e6;
+}
+
